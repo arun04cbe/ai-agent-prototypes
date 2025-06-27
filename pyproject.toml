@@ -1,0 +1,14 @@
+[project]
+name = "understanding-ai-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.4"
+dependencies = [
+    "einops>=0.8.1",
+    "ipykernel>=6.29.5",
+    "llama-index>=0.12.43",
+    "llama-index-embeddings-huggingface>=0.5.5",
+    "llama-index-readers-youtube-transcript>=0.3.0",
+    "llama-index-vector-stores-qdrant>=0.6.0",
+]
