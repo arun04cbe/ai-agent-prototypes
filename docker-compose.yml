@@ -16,6 +16,15 @@ services:
     volumes:
       - ./qdrant_data:/qdrant/storage
 
+  arizephoenix:
+    image: arizephoenix/phoenix:latest
+    restart: always
+    container_name: arizephoenix
+    ports:
+      - 6006:6006
+    expose:
+      - 6006
+
 configs:
   qdrant_config:
     content: |
