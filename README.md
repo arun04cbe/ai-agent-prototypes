@@ -1,6 +1,6 @@
 # AI-Agents Prototypes
 
-With immense amount of tools, frameworks available for building AI-Agentic choosing the right stack is essential when moving from prototypes to production.
+With immense amount of tools, frameworks available for building AI-Agentic applications, choosing the right stack is essential when moving from prototypes to production.
 Here is my AI-Agent stack for building RAG and AI Agents.
 
 ![AI Agent Stack](./docs/Agent%20Stack.png)
